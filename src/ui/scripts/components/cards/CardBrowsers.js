@@ -55,7 +55,7 @@ const CardBrowsers = (props) => {
 
 		return h(PresentationEmptyState, {
 			icon: ICON_WARNING
-		}, 'No browsers')
+		}, 'No browsers. This data is only captured when detailed logging is enabled.')
 
 	})()
 
