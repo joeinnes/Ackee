@@ -55,7 +55,7 @@ const CardSystems = (props) => {
 
 		return h(PresentationEmptyState, {
 			icon: ICON_WARNING
-		}, 'No systems')
+		}, 'No systems. This data is only captured when detailed logging is enabled.')
 
 	})()
 
