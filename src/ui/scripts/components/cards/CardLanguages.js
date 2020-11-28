@@ -55,7 +55,7 @@ const CardLanguages = (props) => {
 
 		return h(PresentationEmptyState, {
 			icon: ICON_WARNING
-		}, 'No languages')
+		}, 'No languages. This data is only captured when detailed logging is enabled.')
 
 	})()
 
