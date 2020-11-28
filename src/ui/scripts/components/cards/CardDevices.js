@@ -54,7 +54,7 @@ const CardDevices = (props) => {
 
 		return h(PresentationEmptyState, {
 			icon: ICON_WARNING
-		}, 'No device')
+		}, 'No devices. This data is only captured when detailed logging is enabled.')
 
 	})()
 
